@@ -3,12 +3,12 @@
 
 struct Simple
 {
-	int dato;
-	struct Simple * Siguiente;	
+  int dato;
+  struct Simple *Siguiente;
 };
 
-struct Simple * Insertar_Nodo(struct Simple * , int );
+struct Simple *Insertar_Nodo (struct Simple *, int);
 
-void Mostrar_Lista(struct Simple * );
+void Mostrar_Lista (struct Simple *);
 
-struct Simple * Eliminar_Nodo(struct  Simple * , int);
+struct Simple *Eliminar_Nodo (struct Simple *, int);
